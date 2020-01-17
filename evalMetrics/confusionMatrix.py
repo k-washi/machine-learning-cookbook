@@ -22,3 +22,11 @@ confusion_matrix2 = confusion_matrix(y_true, y_pred)
 #print(confusion_matrix2)
 #[[2 1]
 # [2 3]]
+
+#Precision = tp / (tp + fp)
+#誤検知を少なくしたい場合
+
+#Recall = tp / (tp + fn)
+#正例を逃したくない場合
+
+#F1-Value = 2 / (1/pre + 1/Rec) = 2*pre*rec/(rec + pre)=2tp/(2tp + fp + fn)
